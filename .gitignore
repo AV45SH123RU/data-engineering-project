@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# Data files (we don't want to commit raw data)
+data/
+*.csv
+*.parquet
+*.json
+
+# IDE
+.vscode/
+.idea/
+
+# dbt logs
+logs/
+target/
+dbt_packages/
+
+# Airflow
+airflow/airflow.db
+airflow/logs/
